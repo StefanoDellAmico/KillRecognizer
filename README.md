@@ -1,4 +1,4 @@
-# KillRecognizer
+# KillRecognizer for Apex: Legends
  OBS / Streamlabs / Xsplit Layer. 
  Useful for streamer who'd like to play some kill challanges with automatic update of the kill counter.
 
