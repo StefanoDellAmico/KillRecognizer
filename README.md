@@ -9,7 +9,7 @@
 
 ## For the skeptical ones:
  If you don't know what you're downloading, here is the answer: the upper folder (https://github.com/StefanoDellAmico/KillRecognizer/tree/main/) contains all source code for  this release. 
- If you don't trust the `./Release` folder contents, you'll need a Java compiler, and import sikuliX and Tess4J libraries as External Jar, so you will be capabale of see the entire source code.
+ If you don't trust the `./Release` folder contents, you'll need a Java compiler (i used Eclipse), import an existing project, and import sikuliX and Tess4J libraries as "External Archives", in order to compile it correctly. Once the project will be imported correctly, you'll be able to see the source code, modify it, and compile it.
 
 # Known Issues
  - The software is able to understand how many kills you've done by looking at the top-right corner for the kill symbol, and then by scanning and using OCR technology. If you kill your enemies and they're the last squad remaining, the game will not update the last kill(s), and so the plugin. So by that, i'm looking for a way to update it manually (always better than update everything manually ;) )
