@@ -15,7 +15,7 @@
  - The software is able to understand how many kills you've done by looking at the top-right corner for the kill symbol, and then by scanning and using OCR technology. If you kill your enemies and they're the last squad remaining, the game will not update the last kill(s), and so the plugin. So by that, i'm looking for a way to update it manually (always better than update everything manually ;) )
  - Accuracy of the OCR is very high, but rarely fails. I acted in two ways:
    - Firstly, i used some conditions inside the code, so the A.I will not change the right values to strage ones.
-   - Secondly, i'm working on training the A.I. by recognizing just Apex: Legends font as best as i can. The problem is that Apex has a customized font, that i was not able to find online. If you want to help, open a Pull requests issue and i'll look into it.
+   - Secondly, i'm working on training the A.I. by recognizing just _Apex: Legends_ font as best as i can. The problem is that Apex has a customized font, that i was not able to find online. If you want to help, open a Pull requests issue and i'll look into it.
 
 # Special thanks
 I would like to thanks the Twitch italian streamer **_HALtv_** (https://www.twitch.tv/haltv), who inspired me, and the Twitch italian streamer **_roke_13_** (https://www.twitch.tv/roke_13, my brother) for having helped me by testing the software. 
