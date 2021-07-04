@@ -22,6 +22,7 @@
  - Accuracy of the OCR is very high, but rarely fails. I acted in two ways:
    - Firstly, i used some conditions inside the code, so the A.I will not change the right values to strage ones.
    - Secondly, i'm working on training the A.I. by recognizing just _Apex: Legends_ font as best as i can. The problem is that Apex has a customized font, that i was not able to find online. If you want to help, open a Pull requests issue and i'll look into it.
+ - The app still not understand when to reset the counter (when a new match starts), but i'm also working on it.
 
 # Special thanks
 I would like to thanks the Twitch italian streamer **_HALtv_** (https://www.twitch.tv/haltv), who inspired me, and the Twitch italian streamer **_roke_13_** (https://www.twitch.tv/roke_13, my brother) for having helped me by testing the software. 
