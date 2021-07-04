@@ -3,6 +3,12 @@
  Useful for streamer who'd like to play some kill challanges with automatic update of the kill counter.
 
 ## How to use that:
+
+### Prerequisite:
+ Due to the fact that the plugin is Java-based, you'll need a _Juva Runtime Environment_ to start it. 
+ Based on an A.I., the software need a _screenshot_ of the "kill" symbol that appear whenever you gain an assist or a kill during the match. The size of the screenshot must look like a hitbox of the skull (just it!), and has to be scaled just as the streaming preview (if you're using 2 pc) inside the streamcaster program, or just like in game (but pay attention to the screen resolution). If you will download the `./Release` folder you'll see that i already put two skulls inside it (based on a 1920x1080 screen resolution, and 1:1 scaled screen). If you have a different resolution, just replace them: be sure to rename them properly as i did.
+ 
+ ### Usage:
  If you're a streamer, go to https://github.com/StefanoDellAmico/KillRecognizer/tree/main/Release and download all the files: they're all required.
  
  Then, import as local file in your streamcaster program the "index.html" file. Then, start "KillRecognizer.jar": as far as GUI is not released (yet), it's possible to start it by entering in Command Prompt in the root folder, and type `java -jar KillRecognizer.jar`. If you don't know if the program is not working, don't worry: the Jar file is able to output what he found and what he is doing.
